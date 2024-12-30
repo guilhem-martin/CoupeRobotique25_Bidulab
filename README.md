@@ -22,6 +22,19 @@ Certaines de ces installations peuvent prendre du temps.
 
 Pour générer un APK pour Android, il faut installer le module Android dans la configuration Build de Unity.
 
+## Importer votre robot ou vos PAMIs
+
+### Depuis Studio
+
+- Dans Studio, exporter votre robot ou vos PAMIs en format Collada (.dae)
+- Dans Unity, faites un glisser-déposer du .dae dans le dossier `Assets/Models`
+- Dans Unity, faites un glisser-déposer du .dae dans la scène
+- Faire bouton droit de la souris sur le prefab et faire "unpack prefab"
+
+![unpack prefab](docs/unpack-prefab.png)
+
+- Faire glisser déposer du robot/PAMI dans la scène racine
+- A ce stade, vous pouvez supprimer le prefab
 
 
 
