@@ -20,17 +20,14 @@ public class pami1_elwin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if (!rb.isKinematic)
-        // {
-
-        if (Input.GetKey(KeyCode.H))
-        {
-            isMoving = !isMoving;
-        }
-
         if (isMoving)
         {
             transform.position += new Vector3(0.01f, 0, 0);
+        }
+
+        if (Input.GetKey(KeyCode.F))
+        {
+            isMoving = true;
         }
     }
 }
