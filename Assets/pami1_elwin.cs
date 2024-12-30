@@ -16,12 +16,12 @@ public class pami1_elwin : MonoBehaviour
 
     // Premier mouvement de l'objet pendant 1.25 secondes
     private float waitTime1 = 1.25f;
-    private bool premier_mouvement = true;
 
     // Deuxième mouvement de l'objet pendant 2 secondes
-    private float waitTime2 = 2.0f;
-    private bool deuxieme_mouvement = true;
+    private float waitTime2 = 0.9f;
 
+    // Troisième mouvement de l'objet pendant 0.35 secondes
+    private float waitTime3 = 0.35f;
 
 
     // Start is called before the first frame update
@@ -38,21 +38,19 @@ public class pami1_elwin : MonoBehaviour
         {
 
             Debug.Log($"isMoving: {isMoving}");
+            Debug.Log($"timer: {timer}");
+            Debug.Log($"waitTime1: {waitTime1}");
+            Debug.Log($"Time.deltaTime: {Time.deltaTime}");
+
             timer += Time.deltaTime;  // The interval in seconds from the last frame to the current one (Read Only).
             // D'abord, l'objet se déplace tout droit vers la scène
-            if (timer < waitTime1 && premier_mouvement)
+
+            if (timer < waitTime1)
                 transform.position += new Vector3(0, 0, moveSpeed);
-            else
-                premier_mouvement = false;
-                timer = 0.0f;
-
-
-            // Ensuite l'objet se déplace en diagonale vers la droite de la scène
-            if (timer < waitTime2 && !premier_mouvement && deuxieme_mouvement)
+            else if (timer < waitTime2 + waitTime1)
                 transform.position += new Vector3(moveSpeed, 0, moveSpeed);
-            else
-                deuxieme_mouvement = false;
-                timer = 0.0f;
+            else if (timer < waitTime3 + waitTime2 + waitTime1)
+                transform.position += new Vector3(-moveSpeed, 0, 0);
         }
 
         if (Input.GetKey(KeyCode.F))
