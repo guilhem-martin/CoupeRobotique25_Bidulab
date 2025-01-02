@@ -19,8 +19,9 @@ public struct KeyStruct
     public bool Joystick2_SW;
     public override string ToString()
     {
-        return $"Joystick1_X: {Joystick1_X:F2}\nJoystick1_Y: {Joystick1_Y:F2}\nJoystick2_X: {Joystick2_X:F2}\nJoystick2_Y: {Joystick2_Y:F2}\n" +
-           $"Bouton1: {Button1}\nBouton2: {Button2}\nBouton3: {Button3}\nBouton4: {Button4}\nJoystick1_SW: {Joystick1_SW}\nJoystick2_SW: {Joystick2_SW}";
+        return "appuyer sur F pour libérer les PAMIs\n" +
+               $"Joystick1_X: {Joystick1_X:F2}\nJoystick1_Y: {Joystick1_Y:F2}\nJoystick2_X: {Joystick2_X:F2}\nJoystick2_Y: {Joystick2_Y:F2}\n" +
+               $"Bouton1: {Button1}\nBouton2: {Button2}\nBouton3: {Button3}\nBouton4: {Button4}\nJoystick1_SW: {Joystick1_SW}\nJoystick2_SW: {Joystick2_SW}";
     }
     public static KeyStruct FromInput()
     {
@@ -48,7 +49,7 @@ public class keysDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
