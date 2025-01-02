@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d5b9e4e8735e7e40b7b96978d75ef3d
+guid: 633767e97a160264e965490786850af8
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CHROME-GOLD
-    second: {fileID: 2100000, guid: c1aa2c8cb5648534da914c02d937414f, type: 2}
+    second: {fileID: 2100000, guid: 163360bfa54388e4e8f1e5ec8a0bd2f6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: METAL-CONTACT_ALLOY
-    second: {fileID: 2100000, guid: 1810e5b42bec111499173159121ce3cc, type: 2}
+    second: {fileID: 2100000, guid: 83ee186e203416544a43b486433fa8dc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -23,12 +23,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: RUBBER-MEDIUM_AZURE
-    second: {fileID: 2100000, guid: 1810e5b42bec111499173159121ce3cc, type: 2}
+    second: {fileID: 2100000, guid: c1aa2c8cb5648534da914c02d937414f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: RUBBER-WHITE
-    second: {fileID: 2100000, guid: 1484b81b8a24e9b4bb71cf7e3bbb2478, type: 2}
+    second: {fileID: 2100000, guid: a9ee7590387770648bc4e68a4ed61014, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -38,17 +38,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SOLID-BLUE
-    second: {fileID: 2100000, guid: 1810e5b42bec111499173159121ce3cc, type: 2}
+    second: {fileID: 2100000, guid: c1aa2c8cb5648534da914c02d937414f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SOLID-DARK_BLUISH_GRAY
-    second: {fileID: 2100000, guid: 1810e5b42bec111499173159121ce3cc, type: 2}
+    second: {fileID: 2100000, guid: 83ee186e203416544a43b486433fa8dc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SOLID-DARK_TURQUOISE
-    second: {fileID: 2100000, guid: 1810e5b42bec111499173159121ce3cc, type: 2}
+    second: {fileID: 2100000, guid: c1aa2c8cb5648534da914c02d937414f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -58,7 +58,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SOLID-LIGHT_BLUISH_GRAY
-    second: {fileID: 2100000, guid: 1810e5b42bec111499173159121ce3cc, type: 2}
+    second: {fileID: 2100000, guid: 83ee186e203416544a43b486433fa8dc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -68,12 +68,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SOLID-RED
-    second: {fileID: 2100000, guid: c1aa2c8cb5648534da914c02d937414f, type: 2}
+    second: {fileID: 2100000, guid: 27ecc063a8d72944d93b77bd865718d0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SOLID-WHITE
-    second: {fileID: 2100000, guid: 163360bfa54388e4e8f1e5ec8a0bd2f6, type: 2}
+    second: {fileID: 2100000, guid: a9ee7590387770648bc4e68a4ed61014, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -83,10 +83,10 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: TRANS-CLEAR
-    second: {fileID: 2100000, guid: 1810e5b42bec111499173159121ce3cc, type: 2}
+    second: {fileID: 2100000, guid: a9ee7590387770648bc4e68a4ed61014, type: 2}
   materials:
     materialImportMode: 2
-    materialName: 2
+    materialName: 0
     materialSearch: 1
     materialLocation: 1
   animations:
