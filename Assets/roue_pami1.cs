@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class roue_pami1 : MonoBehaviour
 {
+
+    private bool isMoving = false;
+
+
+    public void Move(bool moving)
+    {
+        isMoving = moving;
+        // print debug message "coucou Elwin"
+        Debug.Log("coucou Elwin");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +25,8 @@ public class roue_pami1 : MonoBehaviour
     void Update()
     {
         // this wheel shows rotation
-        transform.Rotate(0, 0, 10);
+        if (isMoving)
+            transform.Rotate(0, 0, 10);
 
     }
 }
