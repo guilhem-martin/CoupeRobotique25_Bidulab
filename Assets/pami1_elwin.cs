@@ -61,7 +61,6 @@ public class pami1_elwin : MonoBehaviour
                     }
                 }
             }
-
         }
     }
 
