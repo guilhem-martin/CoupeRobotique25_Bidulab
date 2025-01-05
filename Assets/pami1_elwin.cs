@@ -82,20 +82,15 @@ public class pami1_elwin : MonoBehaviour
             else if (timer < waitTime3 + waitTime2 + waitTime1)
             {
                 transform.position += new Vector3(-moveSpeed, 0, 0);
+                // float degrees = 90;  // TODO
+                // transform.Rotate(0, degrees, 0);
             }
-
-
-
 
             if (timer > waitTime3 + waitTime2 + waitTime1)
             {
                 isMoving = false;
                 roueScript1.Move(false);
                 roueScript2.Move(false);
-                float degrees = 90;
-                //Vector3 to = new Vector3(0, degrees, 0);
-                // transform.rotation = Quaternion.Euler(to);
-                transform.Rotate(0, degrees, 0);
             }
         }
 
