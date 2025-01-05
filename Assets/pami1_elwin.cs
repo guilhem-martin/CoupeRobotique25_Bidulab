@@ -72,13 +72,8 @@ public class pami1_elwin : MonoBehaviour
         {
             roueScript1.Move(true);
             roueScript2.Move(true);
-            Debug.Log($"isMoving: {isMoving}");
-            Debug.Log($"timer: {timer}");
-            Debug.Log($"waitTime1: {waitTime1}");
-            Debug.Log($"Time.deltaTime: {Time.deltaTime}");
 
             timer += Time.deltaTime;  // The interval in seconds from the last frame to the current one (Read Only).
-            // D'abord, l'objet se déplace tout droit vers la scène
 
             if (timer < waitTime1)
                 transform.position += new Vector3(0, 0, moveSpeed);
@@ -92,7 +87,6 @@ public class pami1_elwin : MonoBehaviour
                 roueScript1.Move(false);
                 roueScript2.Move(false);
             }
-
         }
 
         if (Input.GetKey(KeyCode.F))
